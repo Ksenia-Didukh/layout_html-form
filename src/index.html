@@ -13,7 +13,7 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
     <form class="group" action="http://localhost:8080/" method="post">
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Personal information</legend>
         <label class="form-field">
           Surname:
@@ -61,9 +61,7 @@
           >
         </label>
       </fieldset>
-    </form>
-    <form class="group" action="http://localhost:8080/" method="post">
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Registration</legend>
         <label class="form-field">
           E-mail:
@@ -86,9 +84,7 @@
           >
         </label>
       </fieldset>
-    </form>
-    <form class="group" action="http://localhost:8080/" method="post">
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>An interesting fact about you!</legend>
         <div class="form-field">
           Do you love cats?
@@ -139,9 +135,7 @@
           >
         </label>
       </fieldset>
-    </form>
-    <form class="group" action="http://localhost:8080/" method="post">
-      <fieldset>
+      <fieldset class="fieldset">
         <legend>Additional info</legend>
         <label class="form-field">
           Comments:
@@ -155,9 +149,9 @@
           </select>
         </label>
       </fieldset>
+      <label class="group">
+        <button type="submit" class="form__button">Submit</button>
+      </label>
     </form>
-    <label class="group">
-      <button type="submit" class="form__button">Submit</button>
-    </label>
   </body>
 </html>
